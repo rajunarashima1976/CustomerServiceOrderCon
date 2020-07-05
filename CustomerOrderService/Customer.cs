@@ -8,6 +8,7 @@ namespace CustomerOrderService
     {
         public int CustomerId { get; set; }
         public string CustomerName { get; set; }
+        public string CustomerAddress { get; set; }
         public CustomerType CustomerType { get; set; }
     }
 }
