@@ -31,10 +31,10 @@ namespace CustomerOrderService.Tests
             //Act
             customerOrderService.ApplyDiscount(premiumCustomer, order);
 
-            //Assert
 
-            Assert.AreEqual(order.Amount,130);
-           
+           //Assert
+           Assert.AreEqual(order.Amount, 135);
+
             
 
         }
