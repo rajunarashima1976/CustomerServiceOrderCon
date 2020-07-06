@@ -19,6 +19,8 @@ namespace CustomerOrderService
         public string custadd8 { get; set; }
 
         public string custadd7 { get; set; }
+        
+        public string custadd9 { get; set; }
        
 
 
