@@ -12,6 +12,7 @@ namespace CustomerOrderService
         public string CustAdd1 { get; set; }
         public string custadd2 { get; set; }
         public string custadd3 { get; set; }
+        public string custadd4 { get; set; }
         public CustomerType CustomerType { get; set; }
     }
 }
