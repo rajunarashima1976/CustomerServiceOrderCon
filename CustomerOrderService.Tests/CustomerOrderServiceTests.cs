@@ -37,7 +37,8 @@ namespace CustomerOrderService.Tests
 
 
 
-           Assert.AreEqual(order.Amount, 135);
+           //Assert.AreEqual(order.Amount, 135);
+           Assert.AreEqual(order.Amount, 130);
 
 
 
