@@ -5,8 +5,7 @@ namespace CustomerOrderService.Tests
     [TestFixture]
     public class CustomerOrderServiceTests
     {
-
-        [TestCase]
+         [TestCase]
         public void When_PremiumCustomer_Expect_10PercentDiscount()
         {
             //Arrange
@@ -30,8 +29,36 @@ namespace CustomerOrderService.Tests
             //Act
             customerOrderService.ApplyDiscount(premiumCustomer, order);
 
-            //Assert
-            Assert.AreEqual(order.Amount, 135);
+
+
+
+
+
+
+
+
+
+
+           Assert.AreEqual(order.Amount, 135);
+
+
+
+
+
+           
+
+
+
+
+
+
+
+
+
+
+
         }
+        
     }
 }
+
