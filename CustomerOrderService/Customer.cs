@@ -18,6 +18,10 @@ namespace CustomerOrderService
         public string custaddress4 { get; set; }
         public string custaddress5 { get; set; }
         public string custaddress6 { get; set; }
+
+        public string custaddress7 { get; set; }
+        
+
        
 
 
